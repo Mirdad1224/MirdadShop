@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .2);
+    background-color: #eee;
+}
+
+.dark{
+    background-color: #141E61;
+}
+
+.footer p{
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}
+
+.dark p{
+    color: azure;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer{
+        margin-bottom: 4rem;
+    }
+    .footer p{
+        font-size: .8rem;
+    }
+}

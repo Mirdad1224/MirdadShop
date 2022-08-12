@@ -1,0 +1,10 @@
+.search {
+    width: 50%;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 768px) {
+    .search{
+        width: 95%;
+    }
+}

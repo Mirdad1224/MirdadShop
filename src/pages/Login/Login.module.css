@@ -1,0 +1,78 @@
+.login{
+    width: 70%;
+    min-height: 70vh;
+    margin: 5rem auto;
+    background-color: #fff;
+    display: flex;
+    gap: 2rem;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+    border-radius: .5rem;
+    background: #acb6e5;
+    background: -webkit-linear-gradient(to right, #86fde8, #acb6e5); 
+    background: linear-gradient(to right, #86fde8, #acb6e5);
+}
+
+.loginImage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginImage img{
+    width: 60%;
+}
+
+
+.form{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+
+
+.form *{
+    width: 80%;
+}
+
+.form h3{
+    font-size: 1.3rem;
+}
+
+.form Button{
+    display: inline-block;
+    width: 65%;
+    margin-top: 1rem;
+}
+
+.toggleButton{
+    font-size: .85rem;
+    color: darkgray;
+    transition: .3s;
+}
+
+.toggleButton:hover{
+    color: cornflowerblue;
+}
+
+
+@media screen and (max-width: 768px) {
+    .login{
+        flex-direction: column;
+    }
+    .form{
+        width: 100%;
+        padding: 1.5rem;
+    }
+    .form *{
+        width: 95%;
+    }
+    
+    
+}

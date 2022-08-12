@@ -1,0 +1,73 @@
+.card {
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+      rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+      gap: 1rem;
+      border-radius: .5rem;
+  }
+
+  .dark{
+    background-color: #585577;
+    color: #fff;
+  }
+  
+  .card img {
+    width: 10rem;
+    height: 10rem;
+    transition: .5s;
+  }
+  
+  .card img:hover{
+      transform: scale(1.2);
+  }
+  
+  .card h4{
+      font-size: .8rem;
+      color: darkgray;
+      margin-top: 1rem;
+  }
+  
+  .interaction{
+      margin: 2rem 0;
+  }
+  
+  .buttons{
+      margin-top: 2rem;
+      width: 90%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  
+  .buttons span{
+      font-size: 1.3rem;
+      font-weight: 700;
+  }
+
+  .quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .basket{
+      font-size: 1.5rem;
+      color: purple;
+      cursor: pointer;
+  }
+
+  .darkBasket{
+    color: azure;
+  }
+
+  .total{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }

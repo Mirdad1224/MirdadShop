@@ -1,0 +1,15 @@
+.category{
+    margin: 5rem auto;
+    width: 90%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.active{
+    border-bottom: 1px dotted #000 !important;
+    color: purple !important;
+}
+
